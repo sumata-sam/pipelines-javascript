@@ -6,8 +6,8 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: sampool
+  
 
 steps:
 - task: NodeTool@0
